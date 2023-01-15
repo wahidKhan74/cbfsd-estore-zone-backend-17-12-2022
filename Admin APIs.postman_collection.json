@@ -1,0 +1,215 @@
+{
+	"id": "55f0a423-f264-1459-7300-9a20c1f31745",
+	"name": "Admin APIs",
+	"description": "",
+	"order": [
+		"beb385d1-e3b0-2ab4-fb91-dfb53e6a4a7c",
+		"a4e6dcf5-2171-5cdb-7bd5-1d8ae6cd29e7",
+		"08b25293-c62f-36d5-95a3-11c025fe0ab7",
+		"e8398263-e9f3-8f76-047b-386c6a3879f4",
+		"b491612a-ca4b-6ec9-6ec4-15d15940c609"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1673803795987,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "08b25293-c62f-36d5-95a3-11c025fe0ab7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/admins?email=admin.client@simplilearn.com&fullName=ClientAdmin&password=Admin@123&loginType=2&adminId=4",
+			"queryParams": [
+				{
+					"key": "email",
+					"value": "admin.client@simplilearn.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "fullName",
+					"value": "ClientAdmin",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Admin@123",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "loginType",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "adminId",
+					"value": "4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "55f0a423-f264-1459-7300-9a20c1f31745",
+			"data": null,
+			"dataMode": "params",
+			"name": "Update Admin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673803861161,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a4e6dcf5-2171-5cdb-7bd5-1d8ae6cd29e7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/admins?email=admin4@simplilearn.com&fullName=Adminstrator&password=Admin@123&loginType=4",
+			"queryParams": [
+				{
+					"key": "email",
+					"value": "admin4@simplilearn.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "fullName",
+					"value": "Adminstrator",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Admin@123",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "loginType",
+					"value": "4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "55f0a423-f264-1459-7300-9a20c1f31745",
+			"data": null,
+			"dataMode": "params",
+			"name": "Create Admin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673803845338,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b491612a-ca4b-6ec9-6ec4-15d15940c609",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/admins?id=2",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "55f0a423-f264-1459-7300-9a20c1f31745",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get One",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673803911842,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "beb385d1-e3b0-2ab4-fb91-dfb53e6a4a7c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/admins",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "55f0a423-f264-1459-7300-9a20c1f31745",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Admins list",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673803820981,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e8398263-e9f3-8f76-047b-386c6a3879f4",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/admins?adminId=4",
+			"queryParams": [
+				{
+					"key": "adminId",
+					"value": "4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "55f0a423-f264-1459-7300-9a20c1f31745",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete Admin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1673803878478,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
