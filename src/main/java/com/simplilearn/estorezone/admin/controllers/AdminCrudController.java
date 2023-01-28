@@ -2,6 +2,7 @@ package com.simplilearn.estorezone.admin.controllers;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -24,7 +25,7 @@ public class AdminCrudController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String id = request.getParameter("id");
-		List<Admins> adminList = adminDao.getAll();
+		List<Admins> adminList = new ArrayList<Admins>();
 		String jsonResponse = null;
 		try {
 			if (id != null && Integer.parseInt(id )!=0) {

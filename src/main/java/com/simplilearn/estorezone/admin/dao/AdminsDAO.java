@@ -12,6 +12,32 @@ public class AdminsDAO implements DAO<Admins>{
 
 	DB db  = new DB();
 	
+	// login as admin user
+	public Admins login(String email, String password) {
+		Admins admin = new Admins();
+		db.init();
+		try {
+			String sql = "select * from admins where email='"+email+"' and password='"+password+"'";
+			ResultSet res =  db.executeQuery(sql);
+			if(res.next()) {
+				admin.setAdminId(res.getInt("adminId"));
+				admin.setFullName(res.getString("fullName"));
+				admin.setEmail(res.getString("email"));
+				admin.setPassword(res.getString("password"));
+				admin.setLoginType(res.getInt("loginType"));
+				SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				admin.setAddedOn(format.parse(res.getString("addedOn")));
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Something went wrong :: " + e.getMessage());
+		} finally {
+			db.destroy();
+		}
+		return admin;
+	}
+	
 	// get all admins table records
 	@Override
 	public List<Admins> getAll() {
