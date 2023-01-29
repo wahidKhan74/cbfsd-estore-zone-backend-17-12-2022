@@ -1,0 +1,362 @@
+{
+	"id": "bbebae26-e216-8977-cd4c-d53e2b5728ca",
+	"name": "Orders APIs",
+	"description": "",
+	"order": [
+		"cc42ca47-5ccb-8074-d45a-cfe2dbcaca87",
+		"215ca20c-406d-bdc6-add4-198fbbfd4c07",
+		"7e04bace-21a9-692b-2a84-2cc81b88df2b",
+		"239c3bc1-5b6d-2a6a-d762-a7162ee7bac9",
+		"00029223-3a0a-af9e-4d33-42c4798c9f10"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1675011264763,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "00029223-3a0a-af9e-4d33-42c4798c9f10",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/orders?id=1",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "bbebae26-e216-8977-cd4c-d53e2b5728ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete an order",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675013018400,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "215ca20c-406d-bdc6-add4-198fbbfd4c07",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/orders?orderStatus=New&totalItems=10&itemsSubTotal=500&shipmentCharges=20&totalAmount=520&paymentStatus=1&paymentStatusTitle=successs&paymentMethod=2&paymentMethodTitle=Credit card&userId=3&orderDate=2023-01-29 22:44:00&name=John&email=john@simplilearn.com&contact=989898989&address=ABC street",
+			"queryParams": [
+				{
+					"key": "orderStatus",
+					"value": "New",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "totalItems",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "itemsSubTotal",
+					"value": "500",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "shipmentCharges",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "totalAmount",
+					"value": "520",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentStatus",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentStatusTitle",
+					"value": "successs",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentMethod",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentMethodTitle",
+					"value": "Credit card",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "orderDate",
+					"value": "2023-01-29 22:44:00",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "John",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "john@simplilearn.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "contact",
+					"value": "989898989",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "ABC street",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bbebae26-e216-8977-cd4c-d53e2b5728ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Create order",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675012929678,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "239c3bc1-5b6d-2a6a-d762-a7162ee7bac9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/orders?id=1",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bbebae26-e216-8977-cd4c-d53e2b5728ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get one order",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675012992804,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7e04bace-21a9-692b-2a84-2cc81b88df2b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/orders?orderStatus=New&totalItems=10&itemsSubTotal=500&shipmentCharges=20&totalAmount=520&paymentStatus=1&paymentStatusTitle=successs&paymentMethod=2&paymentMethodTitle=Credit card&userId=3&orderDate=2023-01-29 22:44:00&name=John&email=john@simplilearn.com&contact=989898989&address=ABC street",
+			"queryParams": [
+				{
+					"key": "orderStatus",
+					"value": "New",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "totalItems",
+					"value": "10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "itemsSubTotal",
+					"value": "500",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "shipmentCharges",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "totalAmount",
+					"value": "520",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentStatus",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentStatusTitle",
+					"value": "successs",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentMethod",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "paymentMethodTitle",
+					"value": "Credit card",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "userId",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "orderDate",
+					"value": "2023-01-29 22:44:00",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "John",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "john@simplilearn.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "contact",
+					"value": "989898989",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "ABC street",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "bbebae26-e216-8977-cd4c-d53e2b5728ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Update an order",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675012970035,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cc42ca47-5ccb-8074-d45a-cfe2dbcaca87",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/orders",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bbebae26-e216-8977-cd4c-d53e2b5728ca",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get all orders",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675011266472,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

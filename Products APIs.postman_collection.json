@@ -1,0 +1,250 @@
+{
+	"id": "79daca1f-63af-c56e-944d-2657276cdb47",
+	"name": "Products APIs",
+	"description": "",
+	"order": [
+		"3f5a23be-d472-2e44-205a-92336722b4f9",
+		"9bc4a44a-4e84-3279-4de5-a47f2afd913c",
+		"68a65289-624b-c9ac-9a17-7c8d240f4f52",
+		"59a4b643-b2aa-8421-bf1d-9a63afb2f598",
+		"3e372329-a423-73e2-66f4-f1b6b15f018c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1675008392585,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3e372329-a423-73e2-66f4-f1b6b15f018c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/products?id=3",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "79daca1f-63af-c56e-944d-2657276cdb47",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete a product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675009918434,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3f5a23be-d472-2e44-205a-92336722b4f9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/products",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "79daca1f-63af-c56e-944d-2657276cdb47",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get all products",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675008403920,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "59a4b643-b2aa-8421-bf1d-9a63afb2f598",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/products?id=3",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "79daca1f-63af-c56e-944d-2657276cdb47",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get one product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675009853669,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "68a65289-624b-c9ac-9a17-7c8d240f4f52",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/products?productTitle=Apple iPhone 13 (128GB) - Blue&productDescription=Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording&price=45399&productCode=IPAA131QZ&rating=5&addedOn=2023-01-29 22:44:00&productId=3&thumbnailImage=0",
+			"queryParams": [
+				{
+					"key": "productTitle",
+					"value": "Apple iPhone 13 (128GB) - Blue",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "productDescription",
+					"value": "Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "45399",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "productCode",
+					"value": "IPAA131QZ",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addedOn",
+					"value": "2023-01-29 22:44:00",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "productId",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "thumbnailImage",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "79daca1f-63af-c56e-944d-2657276cdb47",
+			"data": null,
+			"dataMode": "params",
+			"name": "Update a product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675009813065,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9bc4a44a-4e84-3279-4de5-a47f2afd913c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/products?productTitle=Dell Inspiron 3000 Intel Core i3&productDescription=Dell Inspiron 3000 Intel Core i3 11th Gen 15.6 inch, 8GB, 512GB, Windows 11 Home, MS Office 2021, Intel UHD, FHD Display&price=4399&productCode=DLC0131QZ&rating=5&addedOn=2023-01-29 22:44:00",
+			"queryParams": [
+				{
+					"key": "productTitle",
+					"value": "Dell Inspiron 3000 Intel Core i3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "productDescription",
+					"value": "Dell Inspiron 3000 Intel Core i3 11th Gen 15.6 inch, 8GB, 512GB, Windows 11 Home, MS Office 2021, Intel UHD, FHD Display",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "4399",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "productCode",
+					"value": "DLC0131QZ",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addedOn",
+					"value": "2023-01-29 22:44:00",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "79daca1f-63af-c56e-944d-2657276cdb47",
+			"data": null,
+			"dataMode": "params",
+			"name": "Create a product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675008864315,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

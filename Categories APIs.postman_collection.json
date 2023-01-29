@@ -1,0 +1,223 @@
+{
+	"id": "d89daa61-386e-13bb-7fab-22ff1b24da2c",
+	"name": "Categories APIs",
+	"description": "",
+	"order": [
+		"44e5a3f4-647c-1774-81d6-7d9608ff191d",
+		"c6b12dea-d39d-decd-0705-4c7ce9acbc05",
+		"060caacc-351a-f09b-e8f5-994f4179bd36",
+		"bbcf9b74-4010-32e5-3ba1-4ac1aff1171b",
+		"bffc3e04-c437-2a0b-ff18-00531c420e79"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1674925396051,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "060caacc-351a-f09b-e8f5-994f4179bd36",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/categories?id=2",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1674926561247,
+			"name": "Get one by id",
+			"description": "",
+			"collectionId": "d89daa61-386e-13bb-7fab-22ff1b24da2c",
+			"responses": []
+		},
+		{
+			"id": "44e5a3f4-647c-1774-81d6-7d9608ff191d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/categories",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1674926340642,
+			"name": "Get all caegories",
+			"description": "",
+			"collectionId": "d89daa61-386e-13bb-7fab-22ff1b24da2c",
+			"responses": []
+		},
+		{
+			"id": "bbcf9b74-4010-32e5-3ba1-4ac1aff1171b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/categories?categoryName=Beverages and Dairy food items&categoryDescription=All  Beverages and Dairy food items&active=0&catgeoryImageUrl=https://www.mintel.com/assets/media/2018/02/Germany-dairy-products-blog.jpg&addedOn=2023-01-29 22:44:00&categoryId=2",
+			"queryParams": [
+				{
+					"key": "categoryName",
+					"value": "Beverages and Dairy food items",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "categoryDescription",
+					"value": "All  Beverages and Dairy food items",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "active",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "catgeoryImageUrl",
+					"value": "https://www.mintel.com/assets/media/2018/02/Germany-dairy-products-blog.jpg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addedOn",
+					"value": "2023-01-29 22:44:00",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "categoryId",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "d89daa61-386e-13bb-7fab-22ff1b24da2c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Update Category",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1674926709549,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bffc3e04-c437-2a0b-ff18-00531c420e79",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/categories?id=200",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "200",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "d89daa61-386e-13bb-7fab-22ff1b24da2c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete a category",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675007985096,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c6b12dea-d39d-decd-0705-4c7ce9acbc05",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/cbfsd-estore-zone-backend-17-12-2022/categories?categoryName=Beverages and Dairy&categoryDescription=All  Beverages and Dairy items&active=0&catgeoryImageUrl=https://www.mintel.com/assets/media/2018/02/Germany-dairy-products-blog.jpg&addedOn=2023-01-28 22:44:00",
+			"queryParams": [
+				{
+					"key": "categoryName",
+					"value": "Beverages and Dairy",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "categoryDescription",
+					"value": "All  Beverages and Dairy items",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "active",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "catgeoryImageUrl",
+					"value": "https://www.mintel.com/assets/media/2018/02/Germany-dairy-products-blog.jpg",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addedOn",
+					"value": "2023-01-28 22:44:00",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1674926342189,
+			"name": "Create category",
+			"description": "",
+			"collectionId": "d89daa61-386e-13bb-7fab-22ff1b24da2c",
+			"responses": []
+		}
+	]
+}
